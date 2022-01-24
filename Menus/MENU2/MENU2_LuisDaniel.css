@@ -1,0 +1,66 @@
+*{
+	margin:0;
+	padding:0;
+}
+#titulo{
+	font-size:35px;
+	color:grey;
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:15px;
+}
+#subtitulo{
+	font-size:20px;
+	color:lightgrey;
+	text-align:center;
+	padding-bottom:80px;
+}
+#menuCONT{
+/*	background-color:red;*/
+	height:250px;
+	width:1200px;
+	font-size:0;
+	margin:0 auto;
+}
+#menuCONT div {
+	display:inline-block;
+	width:200px;
+	height:230px;
+	font-size:18px;
+	text-align:center;
+	color: rgba(255,255,255,0.6);
+	transition:0.2s;
+}
+#home{background-color:#d06503;}
+#paginas{background-color:#e9931a;}
+#google{background-color:#1691be;}
+#apple{background-color:#166ba2;}
+#html5{background-color:#1b3647;}
+#correo{background-color:#152836;}
+#menuCONT p{
+	margin-top:60px;
+	position:relative;
+	top:0;
+	transition:0.2s;
+}
+#menuCONT img{
+	width:40px;
+	border-radius:100%;
+	background-color:rgba(255,255,255,0.2);
+	padding:18px;
+    margin-top: 50px;
+	transition:0.2s;
+	box-shadow:0 0 0 15px rgba(255, 255, 255, 0);
+}
+#menuCONT div:hover{
+	height:250px;
+	color: rgba(255,255,255,1);
+}
+#menuCONT div:hover p{
+	position:relative;
+	top:20px;
+}
+#menuCONT div:hover img{
+	box-shadow:0 0 0 0 rgba(255, 255, 255,0.5);
+	transition:box-shadow 0.2s;
+}
