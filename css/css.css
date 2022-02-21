@@ -1,0 +1,113 @@
+/*-------------------------------
+--------------RESET--------------
+-------------------------------*/
+*{
+	padding:0;
+	margin:0;
+}
+/*-------------------------------
+-------BACKGROUND GRIS-----------
+-------------------------------*/
+body{
+	background:url("../img/varios/bg.jpg") no-repeat center center fixed;
+	background-size:cover;
+	width:100%;
+	margin:0 auto;
+	height:100%;
+}
+/*-------------------------------
+-----------GOKU-SHALLOT----------
+-------------------------------*/
+#main{
+    background: url("../img/varios/fight.png") no-repeat top center;
+    background-size: 750px;
+    transform: translate(0, -100px);
+	/*height: 100vh; para que ocupe el 100% de la pagina vericalmente*/
+}
+/*-------------------------------
+--tamaño del texto de relleno----
+-------------------------------*/
+p{
+	font-size: 20px;
+	color:grey;
+}
+/*-------------------------------
+----------CONTENIDO--------------
+-------------------------------*/
+.contenido {
+    margin:0 auto; /*Centra el contenedor gris del contenido al centro*/
+    margin-top: 350px; /*Deja el espacio de arriba para que se vean las imagenes*/
+    background-color: rgb(38,38,38); /*Color gris oscuro del contenido*/
+    display: inline-block; /*para que pueda redimensionar el contenedor*/
+     /*para que ocupe el ancho de la pantalla*/
+		 width:100%;
+}
+/*-------------------------------
+--------------MENU---------------
+-------------------------------*/
+#nav{
+	background-color:rgb(38, 50, 56);
+	font-size:32px;
+	color:white;
+	margin:auto;
+
+}
+ul li{
+	margin:0 auto; /*para centrar el menu en en centro*/
+	display:inline-block; /*para que la lista sea horizontal*/
+}
+ul {
+    width: 100%; /*MODIFICAR ESTO SI AÑADES MAS li A LA LISTA*/
+		position:relative;
+		text-align: center;
+		margin:0;
+}
+li{
+	padding:10px; /*padding de los botones del menu*/
+	font-size: 18px;
+}
+li:hover{
+	background-color:#222c31; /*cambio del color de fondo de los botones del menu en hover*/
+}
+#nav img{
+	width: 20px; /*tamaño de la imagen*/
+    vertical-align: bottom; /*centra verticalmente la imagen*/
+	transform: rotate(0); /*rotacion de la imagen a 0 (por defecto)*/
+	transition:0.5s; /*velocidad de la animacion*/
+}
+#nav li:hover img{
+	 transform: rotate(360deg); /*rotacion de la imagen a una vuelta*/
+}
+a {
+	text-decoration: none;
+	color:white;
+}
+.texto{
+	margin-left:20%;
+	margin-right: 20%;
+}
+.dragon {
+	width:950px;
+	height:315px;
+	margin-top:24px;
+}
+h1 {
+	color: white;
+	font-family: Verdana;
+	margin-bottom:12px;
+	margin-top: 12px;
+}
+.textos {
+	margin-bottom:12px;
+}
+.footer {
+	width:100%;
+	height:120px;
+	background-color: rgb(38, 50, 56);
+ text-align: center;
+}
+.footer img {
+	width:50px;
+	height:50px;
+	padding:30px 10px 0px;
+}
