@@ -98,16 +98,3 @@ h3 {
   margin:5.25px;
   padding: 0px 12px 0px 83.2292px;
 }
-.footer{
-	width:100%;
-	height:120px;
-  position:absolute;
-  bottom: -120px;
-	background-color: rgb(38, 50, 56);
- text-align: center;
-}
-.footer img {
-	width:50px;
-	height:50px;
-	padding:30px 10px 0px;
-}
