@@ -1,3 +1,4 @@
+
 .formulario {
   margin:50px;
 }
@@ -11,4 +12,7 @@
 }
 h1 {
   margin-left:25%;
+}
+.footer {
+  bottom:12px;
 }
